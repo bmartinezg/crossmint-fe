@@ -6,7 +6,7 @@ export const HomeHeroActions = () => {
       <Button isExternal href="https://www.linkedin.com/in/brunomartinezgonza/" as={Link} color="default">
         Linkedin Profile
       </Button>
-      <Button href="/megaverse" as={Link} color="success">
+      <Button href="/megaverse/challenge-1" as={Link} color="success">
         Megaverse
       </Button>
     </div>
