@@ -1,4 +1,4 @@
-import { HomeHero } from "@/modules/home/components/HomeHero";
+import { HomeHero } from "@/modules/home/ui/components/HomeHero";
 
 export default function HomePage() {
   return (
