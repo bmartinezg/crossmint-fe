@@ -1,5 +1,5 @@
 import { megaverseService } from "@/modules/megaverse/infra/services";
-import { Megaverse } from "@/modules/megaverse/components/Megaverse";
+import { Megaverse } from "@/modules/megaverse/ui/components/Megaverse";
 
 type MegaversePageProps = {
   params: {

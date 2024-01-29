@@ -1,4 +1,4 @@
-import { CustomTabs } from "@/modules/megaverse/components/CustomTabs";
+import { CustomTabs } from "@/modules/megaverse/ui/components/CustomTabs";
 
 export default function MegaverseLayout({
   children,
@@ -11,7 +11,7 @@ export default function MegaverseLayout({
     <main>
       <div className="container py-10">
         <div className="mb-4">
-          <CustomTabs path={params.id} />
+          <CustomTabs slug={params.id} />
         </div>
         {children}
       </div>
