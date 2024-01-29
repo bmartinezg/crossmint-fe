@@ -11,7 +11,7 @@ export default function MegaverseLayout({
     <main>
       <div className="container py-10">
         <div className="mb-4">
-          <CustomTabs path={params.challenge} />
+          <CustomTabs path={params.id} />
         </div>
         {children}
       </div>

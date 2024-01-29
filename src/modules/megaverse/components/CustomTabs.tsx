@@ -7,8 +7,8 @@ type CustomTabsProps = {
 
 export const CustomTabs = ({ path }: CustomTabsProps) => {
   const tabsOptions = [
-    { id: "challenge-1", label: "Megaverse Challenge 1", to: "challenge-1" },
-    { id: "challenge-2", label: "Megaverse Challenge 2", to: "challenge-2" },
+    { id: "megaverse-1", label: "Megaverse 1", to: "megaverse-1" },
+    { id: "megaverse-2", label: "Megaverse 2", to: "megaverse-2" },
   ];
 
   return (
