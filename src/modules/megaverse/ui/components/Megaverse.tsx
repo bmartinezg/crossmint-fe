@@ -19,6 +19,8 @@ export const Megaverse = ({ values }: MegaverseProps) => {
     }
   };
 
+  if (!values) return <></>;
+
   return (
     <section>
       <div className="text-3xl">
